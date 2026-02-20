@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: #F4EFE6; /* Beige main color */
+  background: #F4EFE6; 
   color: #2B2B2B;
   font-family: Arial, sans-serif;
 }
@@ -22,4 +22,20 @@ header {
   width: 55px;
   height: 55px;
   object-fit: contain;
+}
+header h1 {
+  margin: 0;
+  font-family: Georgia, serif; 
+  font-size: 20px;
+}
+
+header p {
+  margin: 0;
+  font-size: 14px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2B2B2B;
+  font-weight: bold;
 }
